@@ -1,0 +1,74 @@
+/* body{
+  display:flex;
+  flex-direction: column;
+} */
+
+#div-negro{
+  width: 200px;
+  height:200px;
+  background-color:black;
+  margin-top:30px;
+  margin-bottom:30px;
+  border-top: 1px solid black;
+  border-bottom: 30px solid black;
+  border-left: 1px solid black;
+  border-right:20px solid black;
+  padding: 10px 5px 10px 5px;
+}
+
+#uno{
+  /* postion:fixed; */
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#dos{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  align-items:stretch;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#tres{
+  color:white;
+  display:flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Clases */
+
+.center-text{
+  text-align:center;
+}
+
+.orange-border{
+  border: 4px solid #FFA502;
+}
+
+.pink-border{
+  border: 4px solid #F6BD99;
+}
+
+.rojo{
+  background-color: #EF8069;
+}
+
+.celeste{
+  background-color: #83C6FA;
+}
+
+.verde{
+  background-color: #98DE89;
+}
+
+.padded{
+  padding:30px 5px 30px 5px;
+}
