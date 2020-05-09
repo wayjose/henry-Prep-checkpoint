@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#contenedor{
+  display:flex;
+  flex-direction: column;
+  margin:0 auto;
+  width: 500px;
+  background-color: yellow;
+}
+
+img{
+  width: 400px;
+  align-self: center;
+}
+
+ul li{
+  font-size: 25px;
+  color: red;
+}
+
+ul{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+span{
+  font-style: italic;
+}
+
+.spacing{
+  padding: 10px 10px 10px 10px;
+}
+
+a:visited{
+  color:green;
+}
